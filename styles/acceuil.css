@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial;
+    font-family: 'Cantarell', sans-serif;
 }
 body{
     padding: 5px 5px;
@@ -9,6 +9,20 @@ body{
     padding-top: 92px;
     padding-left: 90px;
 }
+
+h1, h2{
+    color: #3D2DA6;
+}
+
+p{
+    color: #fff;
+    font-size: 10px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+
+/*Header Style*/
 
 header{
     position:fixed;
@@ -50,13 +64,12 @@ header{
 }
 
 .section1-left-part h1{
-    color: #3D2DA6;
+    
     font-size: 40px;
     margin-left: 30px;
 }
 
 .section1-left-part h2{
-    color: #3D2DA6;
     font-size: 20px;
     margin-left: 30px;
     margin-bottom: 15px;
@@ -64,7 +77,6 @@ header{
 
 .section1-left-part p{
     color: #fff;
-    font-size: 10px;
     margin-left: 30px;
     line-height: 20px;
 }
@@ -73,4 +85,69 @@ header{
 .section1-right-part img{
     height: 550px;
 }
+
+/*Section Personnage Acceuil*/
+.personnage-carte{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: -70px;
+}
+
+.carte-container{
+    display: flex;
+    flex: 1;
+    background-color: #021740;
+    height: 250px;
+}
+
+.img-carte img{
+    height: 250px;
+}
+
+.texte-carte{
+    flex: 1;
+    padding: 40px 20px;
+}
+
+/*detail-section Styles*/
+.detail-section{
+    display: flex;
+    margin-top: 120px;
+}
+
+
+.left-detail-section{
+    flex:1;
+    padding-left: 50px;
+}
+
+.paragraph-section{
+    margin-bottom: 30px;
+}
+
+.paragraph-section p{
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.right-detail-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex:100px;
+}
+
+
+
+.form-section{
+    background-image: url(Illustrations\Accueil\Pantherhome7.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+
+
 
